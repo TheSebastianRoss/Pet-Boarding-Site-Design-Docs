@@ -7,26 +7,26 @@
 - Update page for people looking after pets to send posts on the status page for the pet’s stay
 
 ## Data flow and UX
-- ![Data Flow Context Diagram](./Diagrams/Data_Flow_Diagrams_-_Context_Diagram.png)
-  - Pet Owners can view company info from Public Web Pages
-  - Pet Owners can fill reservation and pet info forms using the Pet Stay Reservation process
-  - Pet Owners can access reservation and pet info using the Pet Stay Reservation process
-  - Pet Owners can receive updates from the employee caretakers using the Pet Stay Reservation process
-  - Employees can access reservation and pet info using the Pet Stay Reservation process 
-  - Employees can fill in the updates form using the Pet Stay Reservation process
+![Data Flow Context Diagram](./Diagrams/Data_Flow_Diagram_-_Context_Diagram.png)
+- Pet Owners can view company info from Public Web Pages
+- Pet Owners can fill reservation and pet info forms using the Pet Stay Reservation process
+- Pet Owners can access reservation and pet info using the Pet Stay Reservation process
+- Pet Owners can receive updates from the employee caretakers using the Pet Stay Reservation process
+- Employees can access reservation and pet info using the Pet Stay Reservation process 
+- Employees can fill in the updates form using the Pet Stay Reservation process
 
-- ![Data Flow level 1 diagram](./Diagrams/Data_Flow_Diagram_Level_1.png)
-  - Data flows from Public Web Pages to the Pet Owner
-  - Data flows from the Pet Owner to the Reservation process
-  - Data flows from the Reservation process to the Reservation database
-  - Data flows from the Reservation database to the Reservation process
-  - Data flows from the Reservation process to the Employee
-  - Data flows from the Reservation process to the Communication process
-  - Data flows from the Pet Owner to the Communication process
-  - Data flows from the Communication process to the Pet Owner
-  - Data flows from the Reservation database to the Communication process
-  - Data flows from the Communication process to the Employee
-  - Data flows from the Employee to the Communication process
+![Data Flow level 1 diagram](./Diagrams/Data_Flow_Diagram_Level_1.png)
+- Data flows from Public Web Pages to the Pet Owner
+- Data flows from the Pet Owner to the Reservation process
+- Data flows from the Reservation process to the Reservation database
+- Data flows from the Reservation database to the Reservation process
+- Data flows from the Reservation process to the Employee
+- Data flows from the Reservation process to the Communication process
+- Data flows from the Pet Owner to the Communication process
+- Data flows from the Communication process to the Pet Owner
+- Data flows from the Reservation database to the Communication process
+- Data flows from the Communication process to the Employee
+- Data flows from the Employee to the Communication process
 
 ## Key entities and relationships
 ![Database Entity Relationship Diagram](./Diagrams/Database_Diagram_-_Entity_Relationship_Diagram.png)
